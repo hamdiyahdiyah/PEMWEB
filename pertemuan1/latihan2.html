@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Saya</title>
+  </head>
+  <body>
+    <header>
+      <h1>Portofolio</h1>
+      <nav>
+        <a href="latihan2.html">Home</a>
+        <a href="dokumentasi.html">Documentation</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Identitas</h2>
+        <p>Nama saya Hamdiyah Alifia, saya berasal dari Sibuhuan.</p>
+        <p>Saya berkuliah di Universitas Sumatera Utara.</p>
+        <p>NIM : 2514010019.</p>
+      </section>
+
+      <label for="Hobi">Hobi</label>
+                <select id="Hobi" name="Hobi">
+                    <option value="Menyanyi">Menyanyi</option>
+                    <option value="Make up">Make up</option>
+                    <option value="Scrool">Scrool</option>
+                </select>
+
+    <table border="1">
+          <tr>
+            <th>Mata Kuliah</th>
+            <th>Hari</th>
+            <th>Jam</th>
+          </tr>
+          <tr>
+            <td>Pemrograman Web</td>
+            <td>Rabu</td>
+            <td>08:00 - 10:30</td>
+          </tr>
+
+          <tr>
+            <td>Probabilitas dan Statistika</td>
+            <td>Kamis</td>
+            <td>08:00 - 10:30</td>
+          </tr>
+        </table>
+
+        <h3>Ulasan untuk saya</h3>
+        <form action="submit_review.php" method="post">
+          <label for="Pesan">Tulis ulasan Anda:</label><br>
+          <textarea id="Pesan" name="Pesan" rows="4" cols="50"></textarea><br>
+          <input type="submit" value="Kirim Ulasan">
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
